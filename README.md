@@ -1,12 +1,8 @@
 # CEMS BV Jupyter Lite NoteBooks
 
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://cemsbv.github.io/demo/lab/index.html)
+[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://cemsbv.github.io/demo/)
 
 JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
-
-## ✨ Try it in your browser ✨
-
-➡️ **https://cemsbv.github.io/demo/lab/index.html**
 
 ## Requirements
 
