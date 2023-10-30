@@ -23,8 +23,6 @@ attrs==23.1.0
     #   referencing
 babel==2.13.1
     # via jupyterlab-server
-backcall==0.2.0
-    # via ipython
 beautifulsoup4==4.12.2
     # via nbconvert
 bleach==6.1.0
@@ -61,7 +59,7 @@ exceptiongroup==1.1.3
     # via
     #   anyio
     #   ipython
-executing==2.0.0
+executing==2.0.1
     # via stack-data
 fastjsonschema==2.18.1
     # via nbformat
@@ -90,7 +88,7 @@ ipyleaflet==0.17.4
     # via -r requirements.ini
 ipympl==0.9.3
     # via -r requirements.ini
-ipython==8.16.1
+ipython==8.17.0
     # via
     #   ipykernel
     #   ipympl
@@ -182,7 +180,9 @@ markupsafe==2.1.3
     #   jinja2
     #   nbconvert
 matplotlib==3.8.0
-    # via ipympl
+    # via
+    #   ipympl
+    #   py-cptcore
 matplotlib-inline==0.1.6
     # via
     #   ipykernel
@@ -222,6 +222,7 @@ numpy==1.26.1
     #   contourpy
     #   ipympl
     #   matplotlib
+    #   pandas
 overrides==7.4.0
     # via jupyter-server
 packaging==23.2
@@ -232,13 +233,13 @@ packaging==23.2
     #   jupyterlab-server
     #   matplotlib
     #   nbconvert
+pandas==2.1.2
+    # via py-cptcore
 pandocfilters==1.5.0
     # via nbconvert
 parso==0.8.3
     # via jedi
 pexpect==4.8.0
-    # via ipython
-pickleshare==0.7.5
     # via ipython
 pillow==10.1.0
     # via
@@ -263,6 +264,8 @@ ptyprocess==0.7.0
     #   terminado
 pure-eval==0.2.2
     # via stack-data
+py-cptcore==0.0.3
+    # via -r requirements.ini
 pycparser==2.21
     # via cffi
 pygments==2.16.1
@@ -276,8 +279,11 @@ python-dateutil==2.8.2
     #   arrow
     #   jupyter-client
     #   matplotlib
+    #   pandas
 python-json-logger==2.0.7
     # via jupyter-events
+pytz==2023.3.post1
+    # via pandas
 pyyaml==6.0.1
     # via jupyter-events
 pyzmq==24.0.1
@@ -296,6 +302,7 @@ requests==2.31.0
     # via
     #   -r requirements.ini
     #   jupyterlab-server
+    #   py-cptcore
 rfc3339-validator==0.1.4
     # via
     #   jsonschema
@@ -368,6 +375,8 @@ types-python-dateutil==2.8.19.14
     # via arrow
 typing-extensions==4.8.0
     # via ipython
+tzdata==2023.3
+    # via pandas
 uri-template==1.3.0
     # via jsonschema
 urllib3==2.0.7
