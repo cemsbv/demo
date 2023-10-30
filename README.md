@@ -4,6 +4,24 @@
 
 JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
 
+## Troubleshooting
+
+Try to start JupyterLite in an incognito window to avoid interfering
+with our old session storage.
+
+## Frequently Asked Questions
+
+- What is JupyterLite?
+
+[JupyterLite](https://jupyterlite.readthedocs.io/) is a JupyterLab distribution that runs entirely in the browser
+built from the ground-up using JupyterLab components and extensions.
+
+- Do I lose my progress when I close the tab?
+
+By default, [JupyterLite](https://jupyterlite.readthedocs.io/en/latest/howto/configure/storage.html) uses the user’s
+browser storage to store settings and site preferences. This means that generally your files are saved as long as you
+don't clear the browsers' storage. Nonetheless, its good practise to save your file locally when you're done.
+
 ## Format
 
 We format our code with black and isort.
