@@ -167,7 +167,7 @@ jupyterlab-server==2.25.0
     # via jupyterlab
 jupyterlab-widgets==3.0.9
     # via ipywidgets
-jupyterlite-core==0.1.3
+jupyterlite-core==0.4.1
     # via
     #   -r requirements.ini
     #   jupyterlite-pyodide-kernel
