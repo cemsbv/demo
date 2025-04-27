@@ -395,7 +395,7 @@ widgetsnbextension==4.0.9
     # via ipywidgets
 xyzservices==2023.10.1
     # via ipyleaflet
-zipp==3.17.0
+zipp==3.19.1
     # via
     #   importlib-metadata
     #   importlib-resources
