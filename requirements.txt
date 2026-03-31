@@ -268,7 +268,7 @@ py-cptcore==0.0.3
     # via -r requirements.ini
 pycparser==2.21
     # via cffi
-pygments==2.16.1
+pygments==2.20.0
     # via
     #   ipython
     #   nbconvert
