@@ -187,7 +187,7 @@ matplotlib-inline==0.1.6
     # via
     #   ipykernel
     #   ipython
-mistune==3.0.2
+mistune==3.3.0
     # via nbconvert
 nbclassic==1.0.0
     # via
