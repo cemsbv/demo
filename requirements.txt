@@ -99,7 +99,7 @@ ipython-genutils==0.2.0
     #   ipympl
     #   nbclassic
     #   notebook
-ipywidgets==8.1.1
+ipywidgets==8.1.9
     # via
     #   -r requirements.ini
     #   ipyleaflet
