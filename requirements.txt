@@ -175,7 +175,7 @@ jupyterlite-pyodide-kernel==0.1.3
     # via -r requirements.ini
 kiwisolver==1.4.5
     # via matplotlib
-markupsafe==2.1.3
+markupsafe==2.1.5
     # via
     #   jinja2
     #   nbconvert
