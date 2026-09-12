@@ -213,7 +213,7 @@ nest-asyncio==1.5.8
     #   jupyter-client
     #   nbclassic
     #   notebook
-notebook==6.5.6
+notebook==6.5.7
     # via jupyterlab
 notebook-shim==0.2.3
     # via nbclassic
